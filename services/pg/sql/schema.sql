@@ -661,4 +661,4 @@ CREATE MATERIALIZED VIEW metahtml_rollup_insert AS (
 
 COMMIT;
 
-
+CREATE INDEX metahtml_rum_content ON metahtml USING rum(content);

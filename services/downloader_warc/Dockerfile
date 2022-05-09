@@ -22,7 +22,9 @@ RUN apt-get install -y \
     libssl-dev \
     asciidoc \
     xmlto \
-    docbook2x
+    docbook2x \
+    libxml2-dev libxslt1-dev
+
 RUN cd /tmp \
  && wget https://www.kernel.org/pub/software/scm/git/git-2.30.1.tar.gz \
  && tar -xzf git-2.30.1.tar.gz \
