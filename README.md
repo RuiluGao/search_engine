@@ -224,7 +224,7 @@ There are two steps:
        select count(*) from metahtml;
        count
        --------
-       326456
+       322223
        (1 row)
        ```
 
@@ -244,9 +244,9 @@ There are two steps:
        ```
 
     1. This query shows the hostnames that you have downloaded the most webpages from:
-       ```
-       select * from metahtml_rollup_host order by hostpath desc limit 100;
-       url | hostpathquery | hostpath |            host
+        ```
+        select * from metahtml_rollup_host order by hostpath desc limit 100;
+        url | hostpathquery | hostpath |            host
         -----+---------------+----------+----------------------------
          195 |           194 |      192 | com,popsugar)
          208 |           209 |      187 | com,google)
@@ -349,7 +349,7 @@ There are two steps:
           72 |            72 |       72 | mx,com,tripadvisor)
           72 |            72 |       72 | com,oyster)
         (100 rows)
-        ```
+       ```
 
 
 1. Take a screenshot of an interesting search result.
